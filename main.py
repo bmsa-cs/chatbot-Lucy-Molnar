@@ -62,10 +62,18 @@ else:
   else:
     print("Omg what a unique color! I wish my eyes were that color!")
 
-Question6 = input("Oops wait sorry I have just one more small question to ask if you wouldn't mind... Did you enjoy this interview? I worked really hard on coming up with these questions.")
-if (Question6 == "yes" or Question6 == "yeah"):
+  Question6 = input("Ok now for the last question. How old are you?")
+  if (Question6 == "15" or Question6 == "14"):
+    print("cool.")
+  elif(Question6 == "13" or Question6 == "16"):
+    print("awesome.")
+  else:
+    print("Nice.")
+
+Question7 = input("Oops wait sorry I have just one more small question to ask if you wouldn't mind... Did you enjoy this interview? I worked really hard on coming up with these questions.")
+if (Question7 == "yes" or Question7 == "yeah"):
   print("Thank you so much I enjoyed talking to you too! Have a nice day!")
-elif(Question6 == "no" or Question6 == "nope"):
+elif(Question7 == "no" or Question7 == "nope"):
   print("Oh well I am sorry to hear that...well thank you for letting me interview hope you have a nice day!")
 
 
